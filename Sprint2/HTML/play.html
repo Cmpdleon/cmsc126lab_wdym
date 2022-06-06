@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../CSS/play.css" type="text/css">
+	<title>What Do You Mean?</title>
+</head>
+<h1 id="round">Round: </h1>
+<h3 id="tries">Tries Left:</h3>
+<body>
+	<ul class="navi">
+		<li><a href="home.html">Home</a></li>
+		<li><a class="active" href="play.html">Play</a></li>
+		<li><a href="dict.html">Dictionary</a></li>
+		<li><a href="ladder.html">Ladderboard</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+	<div id="container" class="container">
+		<div class="define">
+			<h1>Definitions:</h1>
+			<div id="sub_def" class="sub_def">
+				<h3 id="def1"></h3>
+				<h3 id="def2"></h3>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="hint">
+				<h1>Hints:</h1>
+				<div id="sub_hint" class="sub_hint">
+					<h3 id="hints"></h3>
+				</div>
+			</div>
+			<div class="input">
+				<h1>Word:</h1>
+				<div class="sub_input">
+					<input disabled id="word_input" type="text" name="word" placeholder="Enter Word here" required>
+					<button disabled id="enter">Enter</button>
+				</div>
+			</div>
+			<div class="score">
+				<h1>Score:</h1>
+				<h2 id="score"></h2>
+			</div>
+		</div>
+	</div>
+	<div class="start">
+		<h3 id="gameStart">Press the button to start</h3>
+		<a><button id = "gameButton">Start Game</button></a>
+	</div>
+	<script src="../Javascript/play.js" type="text/javascript"></script> 
+</body>
+</html>

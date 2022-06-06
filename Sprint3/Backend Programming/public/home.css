@@ -1,0 +1,30 @@
+body{
+	background-color: #00cccc;
+	text-align: center;
+	font-family: "Comic Sans MS", Comic Sans MS;
+}
+
+#user{
+	text-align: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+#play{
+	margin-top: 150px;
+	text-decoration: none;
+}
+.inline{
+	display: flex;
+	display: inline;
+	padding-left: 5%;
+	padding-right: 5%;
+	justify-content: center;
+	line-height: 150px;
+}
+#intro{
+	font-family: "Ink Free", Ink Free;
+	padding-top: 50px;
+}

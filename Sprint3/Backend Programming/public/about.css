@@ -1,0 +1,54 @@
+body{
+	background-color:  #00cccc;
+	font-family: "Comic Sans MS", Comic Sans MS;
+}
+
+div.container{
+	margin-left: 24%;
+	padding-top: 4%;
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+}
+
+.container > .sub_about{
+	margin-left: 10%;
+}
+#rules{
+	margin-left: 10%;
+}
+
+#contact{
+	padding-left: 10%;
+}
+
+ul.navi {
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 10%;
+	background-color: darkblue;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	font-size: 12px;
+}
+
+li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+li a.active{
+	background-color: black;
+	color: white;
+}
+
+li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+}
